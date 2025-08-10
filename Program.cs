@@ -27,7 +27,7 @@ app.MapGet("/products", async (IMemoryCache memoryCache) =>
                             Name = $"Product-{i}-{Guid.NewGuid().ToString()[..8]}"
                         })];
 
-        Console.WriteLine("Termin� la consulta a la base de datos...");
+        Console.WriteLine("Terminó la consulta a la base de datos...");
 
         memoryCache.Set(memoryCacheKey, products, TimeSpan.FromHours(2));
     }
