@@ -1,0 +1,42 @@
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.vcxproj.user
+*.filters
+
+# Build files
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.map
+*.log
+
+# NuGet packages
+*.nupkg
+packages/
+project.lock.json
+**/node_modules/
+
+# Dependency files and lock files
+*.log
+*.lock
+!nuget.config
+
+# Development environments settings
+.env
+.env.local
+secrets.json
+
+# System files and backups
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Rider / Resharper settings
+.idea/
+*.DotSettings.user
